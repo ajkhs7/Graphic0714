@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GraphicActivity0714">
+
+
+    <!--액티비티가 제어하려면 id를 부여해야한다-->
+    <graphic.graphic0714.MyView
+        android:id="@+id/myView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFDD00"/>
+
+</RelativeLayout>
